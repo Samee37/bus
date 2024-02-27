@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticket</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="/tailwind.config.js">
+</head>
+<body>
+    <header>
+        <!-- nav -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>                 
+                  <li><a>About</a></li>
+                  <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-2xl font-bold">P-Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>                 
+                  <li><a>About</a></li>
+                  <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn text-green-500">Bus <img src="./images/bus-icon.png" alt=""></a>
+            </div>
+          </div>
+          <!-- banner -->
+          <div class="hero min-h-screen" style="background-image: url('./images/banner.png');">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-4xl font-bold">End-to-End Travel with</h1>
+                <h1 class="mb-5 text-4xl font-bold text-green-500">P Paribahan</h1>
+                <p class="mb-5">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+                <button class="btn btn-success text-2xl font-bold">Buy Tickets</button>
+              </div>
+            </div>
+          </div>
+          <!-- best offer -->
+        <div>
+            <h1 class="font-bold text-4xl text-center m-10">Best offers for you</h1>
+        </div>
+        <div class="flex justify-around">
+            <div class="flex bg-yellow-400">
+                <div class=" h-24 w-72 rounded-tr-2xl pt-20 ">
+                    <h1 class="font-extrabold text-4xl text-center">15% OFF</h1>
+                    <p class="font-bold  text-center">On your next purchase</p>
+                    <p class="  text-center">Use by january 2024</p>   
+                </div>
+                <div>
+                    <img src="./images/cupon-devider.png" alt="">
+                </div>
+                <div class="h-24 w-60 pt-20 rounded-tr-2xl ">
+                    <h1 class="font-bold text-3xl text-center">New 15</h1>
+                    <p class=" text-center">Coupon Code</p>
+                </div>
+            </div>
+            <div class="flex bg-pink-400">
+                <div class="w-72 rounded-tr-2xl pt-20 ">
+                    <h1 class="font-extrabold text-4xl text-center">20% OFF</h1>
+                    <p class="font-bold  text-center">On your next purchase</p>
+                    <p class="  text-center">Use by january 2024</p>
+                </div>
+                <div>
+                    <img src="./images/cupon-devider.png" alt="">
+                </div>
+                <div class=" w-60 pt-20 rounded-tr-2xl ">
+                    <h1 class="font-bold text-3xl text-center">Couple 20</h1>
+                    <p class=" text-center">Coupon Code</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center m-10 text-green-500 font-semibold">
+            <button class="btn btn-outline btn-success ">See All Offers</button>
+        </div>
+    </header>
+    <main class="bg-zinc-200 rounded-t-3xl border-green-500 ">              
+                    <!-- ph poribohon -->
+
+        <div class="mt-10">
+            <h1 class="pt-20 font-bold text-4xl text-center mt-14">P.H Paribahan</h1>
+            <p class="text-center mt-4">Yes, you can run unit tests and view the results directly within the app. The integrated <br> 
+                testing features allow for a streamlined .</p>
+        </div>
+        <div class="bg-white flex m-20">
+            <div>
+                <div class="flex justify-between mt-20 rounded-2xl pl-5">
+                    <div class="flex gap-2">
+                        <div>
+                            <img src="./images/bus-logo.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-3xl">Greenline Paribahan</h1>
+                            <p>Coach-009-WEB ! AC_Business</p>
+                        </div>
+                    </div>
+                    <div class=" text-green-500 font-semibold">
+                        <button class="btn btn-outline btn-success "><img src="./images/seat-green.png" alt=""> 40 seats left</button>
+                    </div>
+                </div>
+                <div class="mt-10 ml-3 bg-slate-100">
+                    <div class=" flex justify-between pr-10 pl-10 pt-4 pb-4">
+                        <p>Route</p>
+                        <p>Dhaka-Sylhet</p>
+                    </div>
+                    <hr class="divide-dashed ">
+                    <div class=" flex justify-between pr-10 pl-10 pt-4 pb-4">
+                        <p>Departure Time</p>
+                        <p>9:00 PM</p>               
+                    </div>
+                    <hr>
+                    <div class=" flex justify-center text-center gap-2 ">
+                        <div class="bg-slate-300 p-3 w-60 rounded-xl"><p> Boarding Point - Laxmipur</p></div>
+                        <div class="bg-slate-300 p-3 w-60 rounded-xl"><p> Dropping Point - Bogura</p></div>
+                        <div class="bg-slate-300 p-3 w-60 rounded-xl"><p> Est. Time - 11hr</p></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./images/info-devider.png" alt="">
+            </div>
+            <div class="mt-28 ml-28">
+                <img class="ml-10" src="./images/fare.png" alt="">
+                <h1 class="font-bold text-4xl text-center">550 Taka</h1>
+                <p class="text-center text-2xl">Per Seat</p>
+            </div>
+        </div>
+
+     
+
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
